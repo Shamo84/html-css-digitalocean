@@ -1,0 +1,43 @@
+html, body {
+  height: 100%;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  padding: 20px 0;
+}
+#navbar #logo_do {
+  width: 200px;
+}
+#navbar i {
+  float: right;
+  font-size: 26px;
+  line-height: 37px;
+}
+
+#jumbo {
+  height: 710px;
+  background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
+  background-position: center;
+}
+#logos .row [class*="col-"] {
+  height: 29vw;
+  max-height: 150px;
+}
+
+#logos .row img {
+  width: 100%;
+  position: relative;
+  left: 0;
+  transform: translateY(-50%);
+  top: 75px;
+}
+@media screen and (max-width: 768px) {
+  #logos .row img {
+    top: 14.5vw;
+  }
+}
