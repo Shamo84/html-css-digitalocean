@@ -4,6 +4,10 @@
     <meta charset="utf-8">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- VP -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTS ROBOTO -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css">
@@ -19,12 +23,18 @@
       </nav>
       <div id="jumbo">
         <div class="container">
-          <div class="col-sm-7 text-white">
+          <div id="title" class="col-xs-12 col-sm-7 text_white">
             <h1>The simplest cloud platform for develpers & teams</h1>
-            <p>Deploy, manage and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, wether you're running one virtual machine or ten thousand.</p>
+            <p id="sub_title" class="font_mid">Deploy, manage and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, wether you're running one virtual machine or ten thousand.</p>
           </div>
-          <div class="col-sm-5">
-
+          <div id="get_started" class="col-xs-12 col-sm-5 text-center">
+            <h2 class="spacing_1">Deploy your app in seconds.</h2>
+            <h2 class="text_blue spacing_1">Get started now.</h2>
+            <input type="email" name="email" placeholder=" Email" value="">
+            <input type="password" name="password" placeholder=" Password" value="">
+            <a href="#" id="create" class="text_white">Create your account</a>
+            <a href="#" id="sign_up"><img src="img/google-icon.png" alt=""> Sign up with google</a>
+            <p>By signing up you agree to the <a href="#" id="tos" class="text_blue">Terms of Service</a>.</p>
           </div>
         </div>
 

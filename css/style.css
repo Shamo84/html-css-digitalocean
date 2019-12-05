@@ -1,34 +1,135 @@
-html, body {
-  height: 100%;
+/* GENERALS */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 66px;
+}
+.text_white {
+  color: white;
+}
+.text_blue {
+  color: #006aff;
+}
+.spacing_1 {
+  letter-spacing: -1px;
+}
+h1,h2 {
+  font-weight: 700;
+}
+h1 {
+  font-size: 62px;
+}
+h2 {
+  font-size: 30px;
+}
+.font_mid {
+  font-size: 24px;
 }
 
+/* NAVBAR */
 #navbar {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   background-color: white;
-  padding: 20px 0;
+  padding: 14px 0;
 }
 #navbar #logo_do {
-  width: 200px;
+  width: 162px;
 }
 #navbar i {
   float: right;
   font-size: 26px;
   line-height: 37px;
+  color: #3a8aff;
 }
 
+
+/* JUMBO */
 #jumbo {
-  height: 710px;
+  min-height: 493px;
   background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
-  background-position: center;
+  background-position: center bottom;
 }
+#jumbo > div {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+#jumbo #title {
+  padding-right: 50px;
+  padding-left: 0;
+}
+@media screen and (max-width: 992px) {
+  #jumbo #title {
+    padding-right: 20px;
+  }
+  h1 {
+  font-size: 38px;
+  }
+  .font_mid {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #jumbo #title {
+    padding-right: 0;
+  }
+}
+#jumbo #sub_title {
+  opacity: 0.8;
+}
+#jumbo #get_started {
+  background-color: white;
+  border-radius: 6px;
+  padding: 30px 20px;
+}
+#jumbo #get_started input {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #eeeeee;
+  line-height: 36px;
+  margin-bottom: 11px;
+  border-radius: 5px;
+}
+#jumbo #get_started input::placeholder {
+  font-weight: 600;
+}
+#jumbo #get_started a {
+  display: inline-block;
+  font-weight: 600;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 11px;
+  line-height: 32px;
+}
+#jumbo #get_started #create {
+  background-color: #579aff;
+}
+#jumbo #get_started #sign_up {
+  position: relative;
+  color: #626262;
+  box-shadow: 1px 1px #e3e3e3;
+}
+#jumbo #get_started #sign_up img{
+  width: 20px;
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#jumbo #get_started p a{
+  text-decoration: underline;
+}
+#jumbo #get_started #tos {
+  display: inline;
+}
+
+
+/* LOGOS */
 #logos .row [class*="col-"] {
   height: 29vw;
   max-height: 150px;
 }
-
 #logos .row img {
   width: 100%;
   position: relative;
