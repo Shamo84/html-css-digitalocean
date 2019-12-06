@@ -157,9 +157,18 @@ color: white;
 #jumbo #get_started #create {
   background-color: #579aff;
 }
+#jumbo #get_started #create:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #006aff;
+}
 #jumbo #get_started #sign_up {
   position: relative;
-    box-shadow: 1px 1px #e3e3e3;
+  box-shadow: 1px 1px #e3e3e3;
+}
+#jumbo #get_started #sign_up:hover {
+  text-decoration: none;
+  background-color: #D5E4F7;
 }
 #jumbo #get_started #sign_up img{
   width: 20px;
@@ -239,6 +248,20 @@ font-weight: 600;
   border-left: 2px solid #cccccc;
   padding-left: 11px;
 }
+#deploy .row li:active,
+#deploy .row li:focus {
+  color: #006aff;
+  border-left: 2px solid #006aff;
+}
+#deploy .row li:hover a,
+#deploy .row li:active a,
+#deploy .row li:focus a{
+  color: #060606;
+  text-decoration: none;
+}
+#deploy .row li a {
+  color: #626262;
+}
 #deploy .first.row {
   margin-bottom: 20px;
 }
@@ -250,7 +273,7 @@ font-weight: 600;
 /* DESIGNED */
 #designed {
   background-color: #f3f5f9;
-  padding: 60px 0 70px;
+  padding: 60px 0 60px;
 }
 #designed .font_mid {
   margin: 32px 0 60px;
@@ -259,7 +282,9 @@ font-weight: 600;
   width: 53%;
   margin: 0 30px;
 }
-
+#designed img:hover {
+cursor: grab;
+}
 @media screen and (max-width: 991px){
   #designed img {
     width: 42%;
@@ -271,7 +296,6 @@ font-weight: 600;
     margin-top: 70px;
   }
 }
-
 @media screen and (max-width: 767px) {
   #designed .arrow {
     display: none;
@@ -287,11 +311,18 @@ font-weight: 600;
   vertical-align: middle;
   font-size: 40px;
 }
+#designed [class*="fa-chevron"]:hover {
+  color: #006aff;
+}
+
 #designed [class*="fa-chevron"] {
   font-size: 40px;
 }
 #designed .fa-chevron-left {
   color: #6f7b97;
+}
+#designed .fa-chevron-right {
+  color: black;
 }
 #designed .font_sm {
   font-size: 16px;
@@ -308,4 +339,24 @@ font-weight: 600;
 }
 #designed .pallini:hover {
   background-color: #006aff;
+}
+
+
+/* FEATURES */
+#features {
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+#features h2 {
+  margin-bottom: 35px;
+}
+#features img {
+  width: 40px;
+  margin-bottom: 10px;
+}
+#features a {
+  color: #006aff;
+}
+#features a:hover {
+  text-decoration: none;
 }
