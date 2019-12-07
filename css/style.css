@@ -521,3 +521,22 @@ cursor: grab;
 #get_started_now button:hover {
   background-color: rgba(255, 255, 255, 0.7);
 }
+
+/* FOOTER */
+footer{
+  padding-top: 60px;
+  padding-bottom: 50px;
+  background-color: #031c4e;
+}
+footer #logo_sm {
+}
+footer ul {
+  padding-left: 0;
+  opacity: 0.7;
+}
+footer h5 {
+  font-size: 17px;
+}
+footer ul li {
+  line-height: 32px;
+}
