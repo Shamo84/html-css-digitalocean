@@ -368,12 +368,15 @@ cursor: grab;
 /* WORLD */
 #world {
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 20px;
   background: rgb(0,71,197);
   background: linear-gradient(180deg, rgba(0,71,197,1) 68%, rgba(0,30,154,1) 100%);
 }
 #world h2 {
-  margin-bottom: 18px;
+  margin-bottom: 20px;
+}
+#world [class*="col-"] {
+  margin-bottom: 40px;
 }
 #world h5 {
   float: left;
@@ -404,4 +407,117 @@ cursor: grab;
 #world hr {
   margin-top: 9px;
   margin-bottom: 9px;
+}
+
+
+/* ROCKERBOX */
+#rockerbox {
+  background-color: #f3f5f9;
+  padding: 60px 0 60px;
+}
+#rockerbox h2 {
+  margin: 10px 0 80px;
+}
+#rockerbox .rockerbox {
+  display: inline-block;
+  width: 53%;
+  padding: 75px 0;
+  margin: 0 30px;
+  background-color: white;
+  vertical-align: middle;
+}
+#rockerbox .rockerbox:hover {
+cursor: grab;
+}
+@media screen and (max-width: 991px){
+  #rockerbox .rockerbox {
+    width: 42%;
+  }
+  #rockerbox .font_mid {
+  }
+  #rockerbox .pallini {
+  }
+}
+@media screen and (max-width: 767px) {
+  #rockerbox .arrow {
+    display: none;
+  }
+#rockerbox .rockerbox {
+    width: 65%;
+  }
+  #rockerbox .font_sm {
+  }
+}
+#rockerbox .rockerbox img {
+  margin-bottom: 20px;
+}
+#rockerbox .rockerbox h5 {
+  margin-top: 12px;
+  margin-bottom: 2px;
+}
+#rockerbox .rockerbox a {
+  text-decoration: none;
+}
+#rockerbox .rockerbox #co-founder {
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+#rockerbox .arrow {
+  vertical-align: middle;
+  font-size: 40px;
+}
+#rockerbox [class*="fa-chevron"] {
+  font-size: 40px;
+}
+#rockerbox [class*="fa-chevron"]:hover {
+  color: #006aff;
+}
+#rockerbox .fa-chevron-left {
+  color: #6f7b97;
+}
+#rockerbox .fa-chevron-right {
+  color: black;
+}
+#rockerbox .font_sm {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+#rockerbox .font_sm span {
+  margin-left: 10px;
+}
+#rockerbox .wrapper_pallini {
+  margin-top: 13px;
+}
+#rockerbox .pallini {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  border: 1px solid #006aff;
+  border-radius: 50%;
+  margin-right: 2px;
+}
+#rockerbox .pallini:active {
+  background-color: #006aff;
+}
+
+
+/* GET STARTED NOW */
+#get_started_now {
+  padding-top: 50px;
+  padding-bottom: 60px;
+  background: rgb(0,66,187);
+  background: linear-gradient(180deg, rgba(0,66,187,1) 68%, rgba(0,32,155,1) 100%);
+}
+
+#get_started_now button {
+  font-weight: 600;
+  margin-top: 20px;
+  padding: 10px 16px;
+  border-radius: 5px;
+  border: 0;
+  background-color: white;
+}
+#get_started_now button:hover {
+  background-color: rgba(255, 255, 255, 0.7);
 }
