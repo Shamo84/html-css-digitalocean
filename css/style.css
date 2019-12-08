@@ -318,6 +318,7 @@ cursor: grab;
 }
 #designed .glyphicon:hover {
   color: #006aff;
+  cursor: pointer;
 }
 #designed .glyphicon {
   vertical-align:text-top;
@@ -477,6 +478,7 @@ cursor: grab;
 }
 #rockerbox .glyphicon:hover {
   color: #006aff;
+  cursor: pointer;
 }
 #rockerbox .glyphicon-chevron-left {
   color: #6f7b97;
