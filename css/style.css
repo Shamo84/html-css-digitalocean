@@ -2,12 +2,16 @@
 body {
   font-family: 'Roboto', sans-serif;
   margin-top: 66px;
+  min-width: 370px;
 }
 .text_white {
   color: white;
 }
 .text_blue {
   color: #006aff;
+}
+.text_dark_blue {
+  color: #031c4e;
 }
 .text_grey{
   color: #626262;
@@ -23,6 +27,9 @@ h1 {
 }
 h2 {
   font-size: 34px;
+}
+h2,h4 {
+  color: #031c4e;
 }
 ul {
   list-style: none;
@@ -66,14 +73,14 @@ ul {
   text-decoration: none;
 }
 #navbar a {
-  color: black;
+  color: #031c4e;
 }
 #navbar a:hover {
   text-decoration: none;
   color: #006aff;
 }
 #navbar a:hover i{
-  color: black;
+  color: #031c4e;
 }
 #navbar li:last-child {
   margin-right: 10px;
@@ -123,6 +130,9 @@ color: white;
   }
 }
 @media screen and (max-width: 768px) {
+  #jumbo {
+    padding: 0 15px;
+  }
   #jumbo #title {
     padding-right: 0;
   }
@@ -141,7 +151,7 @@ color: white;
   border: 1px solid #eeeeee;
   line-height: 36px;
   margin-bottom: 11px;
-  border-radius: 5px;
+  border-radius: 7px;
 }
 #jumbo #get_started input::placeholder {
   font-weight: 600;
@@ -164,7 +174,7 @@ color: white;
 }
 #jumbo #get_started #sign_up {
   position: relative;
-  box-shadow: 1px 1px #e3e3e3;
+  box-shadow: 1px 1px 3px #c3c3c3;
 }
 #jumbo #get_started #sign_up:hover {
   text-decoration: none;
@@ -211,6 +221,7 @@ color: white;
 }
 @media screen and (max-width: 767px) {
   #logos .row img {
+    width: 85%;
     top: 12vw;
   }
 }
@@ -253,6 +264,7 @@ font-weight: 600;
   color: #006aff;
   border-left: 2px solid #006aff;
 }
+#deploy .list li:first-child a,
 #deploy .row li:hover a,
 #deploy .row li:active a,
 #deploy .row li:focus a{
@@ -322,7 +334,7 @@ cursor: grab;
   color: #6f7b97;
 }
 #designed .fa-chevron-right {
-  color: black;
+  color: #031c4e;
 }
 #designed .font_sm {
   font-size: 16px;
@@ -362,6 +374,7 @@ cursor: grab;
 }
 #features a:hover {
   text-decoration: none;
+  color: #003acf;
 }
 
 
@@ -384,6 +397,11 @@ cursor: grab;
   text-transform: uppercase;
   margin: 0 55px 0 16px;
   line-height: 20px;
+}
+@media screen and (max-width: 767px) {
+  #world h5 {
+    margin-right: 5%;
+  }
 }
 #world p {
   display: inline;
@@ -450,6 +468,7 @@ cursor: grab;
 }
 #rockerbox .rockerbox img {
   margin-bottom: 20px;
+  max-width: 90%;
 }
 #rockerbox .rockerbox h5 {
   margin-top: 12px;
@@ -476,7 +495,7 @@ cursor: grab;
   color: #6f7b97;
 }
 #rockerbox .fa-chevron-right {
-  color: black;
+  color: #031c4e;
 }
 #rockerbox .font_sm {
   font-size: 16px;
