@@ -206,24 +206,43 @@ color: white;
   color: #6f7b97;
   margin-top: 20px;
 }
-#logos .row [class*="col-"] {
-  height: 29vw;
-  max-height: 150px;
+#logos .row > div {
+  height: 22vw;
+  max-height: 140px;
   padding-left: 8px;
   padding-right: 8px;
-}
-#logos .row img {
-  width: 100%;
-  position: relative;
-  left: 0;
-  transform: translateY(-50%);
-  top: 75px;
+  background-size: 92% auto;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 @media screen and (max-width: 767px) {
-  #logos .row img {
-    width: 85%;
-    top: 12vw;
+  #logos .row {
+    margin-top: 30px;
   }
+  #logos .row > div {
+    height: 22vw;
+    min-height: 86px;
+    max-height: 168px;
+    background-size: 83% auto;
+  }
+}
+#logos #docker {
+  background-image: url(https://www.digitalocean.com/assets/media/homepage/logos/docker-bab60eeb.png);
+}
+#logos #gitlab {
+  background-image: url(https://www.digitalocean.com/assets/media/homepage/logos/gitlab-166e2067.png);
+}
+#logos #slack {
+  background-image: url(https://www.digitalocean.com/assets/media/homepage/logos/slack-e20293da.png);
+}
+#logos #hashicorp {
+  background-image: url(https://www.digitalocean.com/assets/media/homepage/logos/hashicorp-4431df79.png);
+}
+#logos #wework {
+  background-image: url(https://www.digitalocean.com/assets/media/homepage/logos/wework-be6eab32.png);
+}
+#logos #splunk {
+  background-image: url(https://www.digitalocean.com/assets/media/homepage/logos/splunk-06b17d75.png);
 }
 #logos a {
 font-weight: 600;
