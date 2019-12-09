@@ -283,12 +283,13 @@ font-weight: 600;
   color: #006aff;
   border-left: 2px solid #006aff;
 }
-#deploy .list li:first-child a,
-#deploy .row li:hover a,
-#deploy .row li:active a,
-#deploy .row li:focus a{
+#deploy .list li:first-child span,
+#deploy .row li:hover span,
+#deploy .row li:active span,
+#deploy .row li:focus span {
   color: #060606;
   text-decoration: none;
+  cursor: pointer;
 }
 #deploy .row li a {
   color: #626262;
@@ -361,6 +362,9 @@ cursor: grab;
   border: 1px solid #006aff;
   border-radius: 50%;
   margin-right: 2px;
+}
+#designed .pallini:hover {
+  cursor: pointer;
 }
 #designed .pallini:active {
   background-color: #006aff;
@@ -464,16 +468,10 @@ cursor: grab;
   #rockerbox .rockerbox {
     width: 42%;
   }
-  #rockerbox .font_mid {
-  }
-  #rockerbox .pallini {
-  }
 }
 @media screen and (max-width: 767px) {
 #rockerbox .rockerbox {
     width: 65%;
-  }
-  #rockerbox .font_sm {
   }
 }
 #rockerbox .rockerbox img {
@@ -523,6 +521,9 @@ cursor: grab;
   border: 1px solid #006aff;
   border-radius: 50%;
   margin-right: 2px;
+}
+#rockerbox .pallini:hover {
+  cursor: pointer;
 }
 #rockerbox .pallini:active {
   background-color: #006aff;
