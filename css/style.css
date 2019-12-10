@@ -51,6 +51,7 @@ ul {
   padding: 14px 0;
   font-weight: 600;
   z-index: 10;
+  box-shadow: 0 1px #d3d3d3;
 }
 #navbar #logo_do {
   width: 162px;
@@ -652,9 +653,12 @@ footer .chat p {
   margin-bottom: 0;
   border-radius: 5px;
   width: 350px;
+  box-shadow: 0 0 2px #c3c3c3;
+
 }
 footer .glyphicon {
   color: white;
   font-size: 16px;
   margin-left: -8px;
+  filter: drop-shadow(1px 0 #d3d3d3);
 }
