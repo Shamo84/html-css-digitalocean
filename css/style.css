@@ -628,6 +628,7 @@ footer .chat img {
     margin-top: 4px;
     margin-bottom: 0;
     margin-left: 20px;
+    cursor: pointer;
   }
 }
 footer .chat #message_number {
