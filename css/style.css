@@ -614,6 +614,7 @@ footer .chat #shark-wrapper {
   border-radius: 5px;
   margin-bottom: 20px;
   text-align: center;
+  cursor: pointer;
 }
 footer .chat img {
   width: 100%;
@@ -628,7 +629,6 @@ footer .chat img {
     margin-top: 4px;
     margin-bottom: 0;
     margin-left: 20px;
-    cursor: pointer;
   }
 }
 footer .chat #message_number {
