@@ -110,7 +110,7 @@ color: white;
 /* JUMBO */
 #jumbo {
   min-height: 493px;
-  background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
+  background-image: url(../img/bg-home-hero-3.svg);
   background-position: center bottom;
 }
 #jumbo > div {
@@ -230,22 +230,22 @@ color: white;
   }
 }
 #logos #docker {
-  background-image: url(https://www.digitalocean.com/assets/media/homepage/logos/docker-bab60eeb.png);
+  background-image: url(../img/docker.svg);
 }
 #logos #gitlab {
-  background-image: url(https://www.digitalocean.com/assets/media/homepage/logos/gitlab-166e2067.png);
+  background-image: url(../img/gitlab.svg);
 }
 #logos #slack {
-  background-image: url(https://www.digitalocean.com/assets/media/homepage/logos/slack-e20293da.png);
+  background-image: url(../img/slack.svg);
 }
 #logos #hashicorp {
-  background-image: url(https://www.digitalocean.com/assets/media/homepage/logos/hashicorp-4431df79.png);
+  background-image: url(../img/hashicorp.svg);
 }
 #logos #wework {
-  background-image: url(https://www.digitalocean.com/assets/media/homepage/logos/wework-be6eab32.png);
+  background-image: url(../img/wework.svg);
 }
 #logos #splunk {
-  background-image: url(https://www.digitalocean.com/assets/media/homepage/logos/splunk-06b17d75.png);
+  background-image: url(../img/splunk.svg);
 }
 #logos a {
 font-weight: 600;
